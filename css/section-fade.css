@@ -1,0 +1,26 @@
+.fullpage-wrapper {
+    width: 100%!important;
+    transform: none!important;
+}
+
+.fp-section {
+    width: 100%!important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1.5s ease-in-out;
+}
+
+.fp-section.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*
+.fp-section.fp-completely {
+    visibility: visible;
+    opacity: 1;
+}*/
